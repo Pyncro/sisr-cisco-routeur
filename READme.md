@@ -1,9 +1,6 @@
 # READme
 
-Claxton Jordan / Vandenabeele Alan
 
-BTS SIO1
-Lycée Monge
 
 Objectif : La mission qui vous est confiée concerne la maison d’édition du projet : « Mise en place de services réseau et web ».
 
