@@ -14,7 +14,7 @@ Objectif : La mission qui vous est confiée concerne la maison d’édition du p
  Règles a respecter: Une borne Cisco est mise à disposition de chaque binôme. Elle doit être alimentée **uniquement via PoE**.
 
 pièces fournis:
-![clipboard.png](SpoxSnqVZ-clipboard.png)
+![image](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/SpoxSnqVZ-clipboard.png)
 
 
 Missions :
