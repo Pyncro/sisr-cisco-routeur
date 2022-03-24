@@ -61,7 +61,7 @@ Configurer le point d'accès en réseau ouvert:
 
 
 
-![clipboard.png](5yP0dbWLY-clipboard.png)
+![image](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/IMG_4761.PNG)
 # 3.Création du portails
 
 jkkj
