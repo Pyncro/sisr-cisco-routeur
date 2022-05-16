@@ -59,21 +59,20 @@ Configurer le point d'accès en réseau ouvert:
 10. ```exit ```
 
 
-
-![clipboard.png](5yP0dbWLY-clipboard.png)
+![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/IMG_4761.PNG)
 
 # 3.Choix d'opérateurs
 Ceux-ci sont tous des opérateurs libres qui peuvent gérer le réseau du routeur.
 
 
- Sophos Xg Firewall: ![clipboard.png](hPJQ0V6BJ-clipboard.png)
+ Sophos Xg Firewall: ![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/xgfirewall.jpeg)
  
  Pfsense:
- ![clipboard.png](Dxa0zz-Px-clipboard.png)
+ ![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/pfsense.jpeg)
 
  OPNsense:
  
- ![clipboard.png](utGlUEy7I-clipboard.png)
+ ![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/OPNsense.png)
 
 
 ⚠️Ils ne peuvent pas être exécutés en tant qu'application, ils doivent être installés sur un ordinateur ou une boîte virtuelle pour fonctionner comme une machine à part.
@@ -84,15 +83,15 @@ Ceux-ci sont tous des opérateurs libres qui peuvent gérer le réseau du routeu
 
 Pour ce tutoriel, nous allons utiliser OPNsense sur la machine virtuelle. Virtual Box.
 
-![clipboard.png](H7n1MyyWR-clipboard.png)
+![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/view.PNG)
 login: root
 password: opnsense
 
 veuillez noter que le clavier par défaut dans l'opérateur est anglais (QWERTY)
-![clipboard.png](MB3qdypHv-clipboard.png)
+![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/qwerty%20Petite.jpeg)
 
 lorsque vous arrivez au menu, -
-![clipboard.png](8jUbXLDM5-clipboard.png)
+![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/h1.PNG)
 
 -Entrer ces commandes pour l'interface 1:
 
@@ -109,7 +108,7 @@ lorsque vous arrivez au menu, -
 
 Après avoir implémenté avec succès vos ports, appliquez une adresse IP de votre choix.
 
-![clipboard.png](64cn34E8j-clipboard.png)
+![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/lanwan.PNG)
 Pour l'interface 2:
 
 >
@@ -137,11 +136,11 @@ Username: root
 
 Password: opnsense
 
-![clipboard.png](4583xsV2m-clipboard.png)
+![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/webguilog.png)
 
 
 Après votre connexion,vous aurrez accès à tous les paramètres et tous les appareils connectés auront un accès Wi-Fi.
-![clipboard.png](-gq2RqG9a-clipboard.png)
+![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/webgui.png)
 ◊le projet se termine ici, to be continued.
 
 ✅ WiFi access
