@@ -84,13 +84,16 @@ Ceux-ci sont tous des opérateurs libres qui peuvent gérer le réseau du routeu
 Pour ce tutoriel, nous allons utiliser OPNsense sur la machine virtuelle. Virtual Box.
 
 ![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/view.PNG)
+
 login: root
 password: opnsense
 
 veuillez noter que le clavier par défaut dans l'opérateur est anglais (QWERTY)
+
 ![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/qwerty%20Petite.jpeg)
 
 lorsque vous arrivez au menu, -
+
 ![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/h1.PNG)
 
 -Entrer ces commandes pour l'interface 1:
