@@ -1,5 +1,4 @@
-# READme
-
+# Internet routeur
 
 
 Objectif : La mission qui vous est confiée concerne la maison d’édition du projet : « Mise en place de services réseau et web ».
@@ -11,11 +10,11 @@ Objectif : La mission qui vous est confiée concerne la maison d’édition du p
 
 
 
- Règles a respecter: Une borne Cisco est mise à disposition de chaque binôme. Elle doit être alimentée **uniquement via PoE**.
+Règles a respecter: Une borne Cisco est mise à disposition.Elle doit être alimentée **uniquement via PoE**.
 
-pièces fournis:
-![image](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/SpoxSnqVZ-clipboard.png)
 
+Routeur cisco
+![clipboard.png](SpoxSnqVZ-clipboard.png)
 
 Missions :
 1. Mettre en place un réseau WiFi sur un LAN existant.
@@ -25,7 +24,7 @@ Missions :
 5. Le portail captif devra permettre l’information des utilisateurs à propos de la collecte de leurs données et de son but, ainsi que recueillir leur accord pour cette collecte.
 
 
-# 1.Branchement appareils
+# 1.Branchement
 * Branche la cable console de la port Cisco au porte VGI du PC
 * Alimenter un switch de cisco
 * Branche un cable ethernet du port Cisco routeur dans un port switch
@@ -39,28 +38,124 @@ mot de passe du routeur : ``` Ciso```
 Configurer Telnet sur le point d'accès:
 
 1. ``` EN  ```
-2. ```  conf t ```
+2. ``` conf t ```
 3. ``` line vty 0 4  ```
-4. ``` password cisco  ``` (i took bleach)
+4. ``` password bleach  ``` 
 5. ``` login  ```
 6. ``` exit  ```
-7. ``` enable password cisco  ```
-8. ```  exit ```
+7. ``` enable password bleach  ```
+8. ``` exit ```
 
 Configurer le point d'accès en réseau ouvert: 
 1. ``` EN  ```
-2. ```  conf t ```
-3. ``` dot11 ssid OPEN-WIFI  ``` name the ssid
+2. ``` conf t ```
+3. ``` dot11 ssid DARLING  ``` name the ssid
 4. ``` guest-mode  ```
-5. ```  authentication open ```
-6. ```  exit ```
-7. ```  interface dot11radio 0 ```
-8. ``` ssid OPEN-WIFI  ```
+5. ``` authentication open ```
+6. ``` exit ```
+7. ``` interface dot11radio 0 ```
+8. ``` ssid DARLING  ```
 9. ``` no shutdown  ```
-10. ```  exit ```
+10. ```exit ```
 
 
 
-![image](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/IMG_4761.PNG)
-# 3.Choix d'opérateur
+![clipboard.png](5yP0dbWLY-clipboard.png)
+
+# 3.Choix d'opérateurs
+Ceux-ci sont tous des opérateurs libres qui peuvent gérer le réseau du routeur.
+
+
+ Sophos Xg Firewall: ![clipboard.png](hPJQ0V6BJ-clipboard.png)
+ 
+ Pfsense:
+ ![clipboard.png](Dxa0zz-Px-clipboard.png)
+
+ OPNsense:
+ 
+ ![clipboard.png](utGlUEy7I-clipboard.png)
+
+
+⚠️Ils ne peuvent pas être exécutés en tant qu'application, ils doivent être installés sur un ordinateur ou une boîte virtuelle pour fonctionner comme une machine à part.
+
+
+# 4.Installing OPNsense
+
+
+Pour ce tutoriel, nous allons utiliser OPNsense sur la machine virtuelle. Virtual Box.
+
+![clipboard.png](H7n1MyyWR-clipboard.png)
+login: root
+password: opnsense
+
+veuillez noter que le clavier par défaut dans l'opérateur est anglais (QWERTY)
+![clipboard.png](MB3qdypHv-clipboard.png)
+
+lorsque vous arrivez au menu, -
+![clipboard.png](8jUbXLDM5-clipboard.png)
+
+-Entrer ces commandes pour l'interface 1:
+
+
+>n 
+>
+>n
+> 
+>em0
+>
+>em1
+>
+>(press enter)
+
+Après avoir implémenté avec succès vos ports, appliquez une adresse IP de votre choix.
+
+![clipboard.png](64cn34E8j-clipboard.png)
+Pour l'interface 2:
+
+>
+>1
+>
+>n
+>
+>192.168.8.27
+>
+>16
+>
+>n
+>
+>n
+>
+>(enter nothing
+>
+>n
+
+
+# 4.Partie client
+Après avoir entré l'adresse IP fournie par Opensense, vous serez invité à entrer votre Username et mot de passe:
+
+Username: root
+
+Password: opnsense
+
+![clipboard.png](4583xsV2m-clipboard.png)
+
+
+Après votre connexion,vous aurrez accès à tous les paramètres et tous les appareils connectés auront un accès Wi-Fi.
+![clipboard.png](-gq2RqG9a-clipboard.png)
+◊le projet se termine ici, to be continued.
+
+✅ WiFi access
+
+❌ Portail captif
+
+❌ logs
+
+❌ Collècte des données
+
+
+# Da Rulez
+
+https://www.lenetexpert.fr/mise-a-disposition-dun-acces-internet-au-public-quelles-precautions/ 
+
+
 
