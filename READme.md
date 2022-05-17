@@ -14,7 +14,7 @@ Règles a respecter: Une borne Cisco est mise à disposition.Elle doit être ali
 
 
 Routeur cisco
-![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/SpoxSnqVZ-clipboard.jpeg)
+![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/SpoxSnqVZ-clipboard.jpeg width='450' height='450')
 
 Missions :
 1. Mettre en place un réseau WiFi sur un LAN existant.
