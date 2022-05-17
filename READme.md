@@ -14,7 +14,7 @@ Règles a respecter: Une borne Cisco est mise à disposition.Elle doit être ali
 
 
 Routeur cisco
-<img src="https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/SpoxSnqVZ-clipboard.jpeg" width='450' height='450')
+![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/SpoxSnqVZ-clipboard.jpeg")
 
 Missions :
 1. Mettre en place un réseau WiFi sur un LAN existant.
@@ -59,7 +59,7 @@ Configurer le point d'accès en réseau ouvert:
 10. ```exit ```
 
 
-![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/IMG_4761.PNG |width=400px])
+![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/IMG_4761.PNG)
 
 # 3.Choix d'opérateurs
 Ceux-ci sont tous des opérateurs libres qui peuvent gérer le réseau du routeur.
