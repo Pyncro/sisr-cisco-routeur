@@ -59,7 +59,7 @@ Configurer le point d'accès en réseau ouvert:
 10. ```exit ```
 
 
-![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/IMG_4761.PNG)
+![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/IMG_4761.PNG |width=400px])
 
 # 3.Choix d'opérateurs
 Ceux-ci sont tous des opérateurs libres qui peuvent gérer le réseau du routeur.
