@@ -82,6 +82,7 @@ Ceux-ci sont tous des opérateurs libres qui peuvent gérer le réseau du routeu
 
 
 Pour ce tutoriel, nous allons utiliser OPNsense sur la machine virtuelle. Virtual Box.
+https://opnsense.org/download/
 
 ![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/view.PNG)
 
