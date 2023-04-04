@@ -145,7 +145,7 @@ Password: opnsense
 
 Après votre connexion,vous aurrez accès à tous les paramètres et tous les appareils connectés auront un accès Wi-Fi.
 ![images](https://github.com/Pyncro/sisr-cisco-routeur/blob/main/blob/main/webgui.png)
-◊le projet se termine ici, to be continued.
+
 
 ✅ WiFi access
 
@@ -156,7 +156,7 @@ Après votre connexion,vous aurrez accès à tous les paramètres et tous les ap
 ❌ Collècte des données
 
 
-# Da Rulez
+# Les Règles
 
 https://www.lenetexpert.fr/mise-a-disposition-dun-acces-internet-au-public-quelles-precautions/ 
 
